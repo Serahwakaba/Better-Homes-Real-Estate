@@ -1,0 +1,16 @@
+.nav>a{
+    color: #F1FAEE;
+    padding: 18px;
+   }
+.nav{    padding: 14px 16px;
+    font-size: 17px;
+    float: right;
+    
+   
+}
+.header{
+    background-color:#93B0CE ;
+    height: 61px;
+    width: auto;
+   
+}
