@@ -83,3 +83,41 @@ h2{
     height: 200px;
     width: 300px;
 }
+.footer{
+    background-color: #264653;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+.footer>p{
+    padding-top: 40px;
+}
+.more{
+    display: none;
+}
+.text.show-more .more{
+    display: inline;
+}
+.text.show-more .dots{
+    display: none;
+}
+
+.more2{
+    display: none;
+}
+.text2.show-more2 .more2{
+    display: inline;
+}
+.text2.show-more2 .dots2{
+    display: none;
+}
+
+.more3{
+    display: none;
+}
+.text3.show-more3 .more3{
+    display: inline;
+}
+.text3.show-more3 .dots3{
+    display: none;
+}
