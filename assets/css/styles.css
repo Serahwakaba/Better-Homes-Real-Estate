@@ -232,34 +232,34 @@ img{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
-/* ===== ABOUT =====*/
-.about__container{
+/* ===== BUT =====*/
+.buy__container{
   row-gap: 2rem;
   text-align: center;
 }
-.about__subtitle{
+.buy__subtitle{
   margin-bottom: var(--mb-2);
 }
-.about__img{
+.buy__img{
   justify-self: center;
 }
-.about__img img{
+.buy__img img{
   width: 200px;
   border-radius: .5rem;
 }
 
-/* ===== SKILLS =====*/
-.skills__container{
+/* ===== RENT =====*/
+.rent__container{
   row-gap: 2rem;
   text-align: center;
 }
-.skills__subtitle{
+.rent__subtitle{
   margin-bottom: var(--mb-2);
 }
-.skills__text{
+.rent__text{
   margin-bottom: var(--mb-4);
 }
-.skills__data{
+.rent__data{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -275,11 +275,11 @@ img{
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
-.skills__names{
+.rent__names{
   display: flex;
   align-items: center;
 }
-.skills__bar{
+.rent__bar{
   position: absolute;
   left: 0;
   bottom: 0;
@@ -288,38 +288,22 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
+.rent__html{
   width: 95%;
 }
-.skills__css{
+.rent__css{
   width: 85%;
 }
-.skills__js{
+.rent__js{
   width: 65%;
 }
-.skills__ux{
+.rent__ux{
   width: 85%;
 }
-.skills__img{
+.rent__img{
   border-radius: .5rem;
 }
 
-/* ===== WORK =====*/
-.work__container{
-  row-gap: 2rem;
-}
-.work__img{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
-  overflow: hidden;
-}
-.work__img img{
-  transition: 1s;
-  cursor: pointer;
-}
-.work__img img:hover{
-  transform: scale(1.1);
-}
 
 /* ===== CONTACT =====*/
 
