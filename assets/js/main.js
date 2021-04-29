@@ -53,6 +53,17 @@ sr.reveal('.rent__img',{delay: 600});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
 
+/*SUBMIT BUTTON*/
+$(document).ready(function(){
 
+
+ 
+    $('#btn').on('click', function(){
+    $('#text').append("thanks");   
+   
+    
+    });
+    
+  });
 
 
