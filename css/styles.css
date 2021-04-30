@@ -1,0 +1,126 @@
+.nav{
+    width:1350;
+}
+.header{
+    background-color:#93B0CE ;
+    height: 120px;
+    width: 1350px;
+}
+.header img{
+}
+.content{
+    background-image: url("images/orchid-homes.jpg" )
+}
+.row{
+    border: 2px solid;
+    border-color: wheat;
+}
+.btn{
+    background-color:#081822;
+    margin:0px 20px 0px 7px;
+    padding: 0px 7px;
+    color: rgb(235, 204, 204);
+    width:20%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index: 1;
+
+  }
+ 
+  
+.sticky + .content {
+  padding-top: 102px;
+}
+.sticky + .content {
+    padding-top: 102px;
+  }
+.sticky + .aboutme {
+    padding-bottom: 102px;
+  }
+  .sticky .languages {
+    padding-bottom: 102px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#93B0CE ;
+  width: 100%;
+  height: 20%;
+  font-size: 29px;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  margin-top: 5%;
+}
+
+li a:hover {
+  background-color:black;
+}
+.about{
+    background-color:rgba(238, 130, 238, 0.24);
+    width:100%;
+    height:80%;
+    padding: 10%;
+}
+/* ===== FOOTER =====*/
+.footer{
+  background-color: var(--second-color);
+  color: #fff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
+}
+.footer__title{
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+}
+.footer__social{
+  margin-bottom: var(--mb-4);
+}
+.footer__icon{
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 var(--mb-2)
+}
+.footer{
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
+
+  &__title{
+      font-size: 2rem;
+      margin-bottom: var(--mb-4);
+  }
+  &__social{
+      margin-bottom: var(--mb-4);
+  }
+  &__icon{
+
+
+      font-size: 1.5rem;
+      color: #fff;
+      margin: 0 var(--mb-2);
+  }
+}
