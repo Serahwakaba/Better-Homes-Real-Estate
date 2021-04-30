@@ -24,7 +24,7 @@ To access this project on your local files, you can clone it using these steps
 4. jquery
 1. Git
 ### Live Site
-View [live](https://prod.liveshare.vsengsaas.visualstudio.com/join?990785087C895EE5426C0097BDC7CCD6D837)
+View [live](https://serahwakaba.github.io/Better-Homes-Real-Estate/)
 ### License
 This project is under the [MIT](LICENSE) license
 License format:
