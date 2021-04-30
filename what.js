@@ -38,3 +38,42 @@ readMore3.addEventListener('click',(e)=>{
   }
 })
 
+$(document).ready(function(){
+  
+  $('#enquire').hide();  
+  $('#btn1').on('click', function(){
+  $('#enquire').toggle();   
+ 
+  
+  });
+  
+});
+
+$(document).ready(function(){
+  
+  $('#enquire2').hide();  
+  $('#btn2').on('click', function(){
+  $('#enquire2').toggle();   
+ 
+  
+  });
+  
+});
+
+$(document).ready(function(){
+
+
+  $('#enquire3').hide();  
+  $('#btn3').on('click', function(){
+  $('#enquire3').toggle();   
+ 
+  
+  });
+  
+});
+
+
+
+
+
+
